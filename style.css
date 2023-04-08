@@ -1,0 +1,19 @@
+
+
+header{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    background: rgb(175, 191, 169);
+    padding: 30px; 
+    font-size: 18px;
+}
+
+#formSection, #resultado{
+    margin: 20px 60px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    text-align: center;
+}
+ 
