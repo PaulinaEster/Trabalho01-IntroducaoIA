@@ -1,10 +1,10 @@
-let respostas;
+let respostas = [];
 let formularioValido = false;
+const forms = document.querySelectorAll('.needs-validation');
 
 document.getElementById('submitForm').addEventListener('click', validarForm);
 
 function validarForm(){
-  const forms = document.querySelectorAll('.needs-validation');
 
   Array.from(forms).forEach(form => {
     form.addEventListener('click', event => {
@@ -22,7 +22,14 @@ function validarForm(){
 
 
 function calculaResultado(){
-  
+  Array.from(forms).forEach(form => {
+    console.log(form[0].value) // acesso ao valor
+    console.log(form[0].id) // acesso ao id da pergunta
+    console.log(form[1].value)
+    console.log(form[2].id) 
+ 
+
+  });
 
 
   mostraResultado();
