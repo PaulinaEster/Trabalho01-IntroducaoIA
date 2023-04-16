@@ -5,15 +5,50 @@ header{
     justify-content: center;
     justify-items: center;
     width: 100%;
-    background: rgb(175, 191, 169);
-    padding: 30px; 
+    background: rgb(211, 255, 195);
+    padding: 30px 100px; 
     font-size: 18px;
 }
 
-#formSection, #resultado{
+#formSection{
+    display: grid;
     margin: 20px 60px;
     padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+#resultado{  
+    margin: 20px 100px; 
+}
+
+.formulario{
+    margin: 60px;
+    
+    display: grid;
     justify-content: space-around;
-    text-align: center;
 }
  
+.pergunta, .resposta{  
+
+    justify-content: center;
+    justify-items: center; 
+    margin: 10px;
+}
+.botao{
+    
+    display: grid;
+    justify-content: space-around;
+}
+.botoes{
+    /* display: grid;
+    justify-content: space-around; */
+
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+a{
+    text-decoration: none;
+}
